@@ -55,14 +55,14 @@ const Contact = () => {
                 </form>
                 <div className="sm:w-1/2 text-center mt-5 p-10 sm:p-5 md:p-10 sm:mt-0 w-full">
                     <div className="mb-5 place-content-center">
-                        <a href='mailto:reygadas.ar@gmail.com' target="_blank">
+                        <a href='mailto:reygadas.ar@gmail.com' target="_blank" rel="noopener">
                             <EmailIcon fontSize="large" />
                             <span>reygadas.ar@gmail.com</span>
                         </a>
                     </div>
 
                     <div className="mb-5 place-content-center ">
-                        <a href="https://wa.link/45pig4" target="_blank">
+                        <a href="https://wa.link/45pig4" target="_blank" rel="noopener">
                             <WhatsAppIcon fontSize="large" />
                             <span>+52 2411124190</span>
                         </a>
@@ -75,12 +75,12 @@ const Contact = () => {
 
                     </div>
                     <div className='flex justify-evenly'>
-                        <a href='https://www.linkedin.com/in/aldrick13/' target="_blank">
+                        <a href='https://www.linkedin.com/in/aldrick13/' target="_blank" rel="noopener">
                             <LinkedInIcon sx={{ fontSize: 50 }} color="primary" />
 
                         </a>
 
-                        <a href='https://github.com/AlDRick13/' target="_blank">
+                        <a href='https://github.com/AlDRick13/' target="_blank" rel="noopener">
                             <GitHubIcon sx={{ fontSize: 50 }} />
 
                         </a>
