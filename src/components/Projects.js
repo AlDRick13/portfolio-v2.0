@@ -91,8 +91,8 @@ const Projects = () => {
                                         {project.description}
                                     </Typography>
                                     <div className="w-full flex">
-                                        <a href={project.repo} target="_blank" rel="noopener" className="w-1/2 text-center hover:scale-150 ease-in duration-100"><GitHubIcon></GitHubIcon></a>
-                                        <a href={project.demo} target="_blank" rel="noopener" className="w-1/2 text-center hover:scale-150 ease-in duration-100"><WebIcon></WebIcon></a>
+                                        <a href={project.repo} target="_blank" rel="noreferrer" className="w-1/2 text-center hover:scale-150 ease-in duration-100"><GitHubIcon></GitHubIcon></a>
+                                        <a href={project.demo} target="_blank" rel="noreferrer" className="w-1/2 text-center hover:scale-150 ease-in duration-100"><WebIcon></WebIcon></a>
                                     </div>
                                 </CardContent>
                             </CardActionArea>
