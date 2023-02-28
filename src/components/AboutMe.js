@@ -25,7 +25,7 @@ const AboutMe = () => {
                         I'm a passionate Full Stack developer from Mexico with skills in JavaScript, HTML, CSS, React, Node.js. My successful projects showcase my abilities, and I enjoy taking on challenging projects to keep learning. View my portfolio for more information and contact me for potential projects.                        </div>
 
                     <div className="flex justify-center">
-                        <a href={ResumePDF} download="ResumePDF" target='_blank'>
+                        <a href={ResumePDF} download="ResumePDF" target='_blank' rel="noreferrer">
                             <Button variant="contained">Download Resume!</Button>
                         </a>
                     </div>
