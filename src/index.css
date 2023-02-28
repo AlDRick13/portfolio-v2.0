@@ -1,13 +1,30 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.banner {
+  /* width:200px;
+    height:200px; */
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)),
+    url("./images/tokyo.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* bout me */
+
+.profile-picture {
+  width: 250px;
+  height: 250px;
+  background-color: rgba(158, 158, 158, 0.38);
+  background-image: url(./images/yo.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+}
+
+html {
+  background-color: black;
 }
