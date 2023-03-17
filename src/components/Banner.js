@@ -6,11 +6,11 @@ const Banner = () => {
         <div >
             <div className="flex banner ">
                 <div className="m-auto text-white">
-                    <div className="m-1 font-mono text-4xl font-bold text-center tracking-primary md:m-3 lg-m5 md:text-6xl lg:text-8xl">
+                    <div className="font-mono text-2xl font-bold text-center  tracking-primary md:m-3 lg-m5 md:text-5xl lg:text-7xl">
                         I am Aldo Reygadas
                     </div>
-                    <hr className='bg-white' />
-                    <div className="m-1 font-mono text-2xl font-bold text-center tracking-primary md:text-5xl lg:text-7xl">
+                    <hr className='mb-4 bg-white' />
+                    <div className="m-1 font-mono text-xs font-bold text-center tracking-primary md:text-2xl lg:text-4xl">
                         <TypeAnimation
                             sequence={[
                                 'Full-stack Developer', // Types 'One'
